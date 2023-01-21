@@ -1,0 +1,122 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.emoji {
+  width: 230px;
+  height: 230px;
+  background-color: #FFC900;
+  border-radius: 60%;
+  border: 1px dashed black;
+  transition: .1s;
+  /* cursor: pointer; */
+}
+
+.emoji:active {
+  transform: scale(1.1);
+}
+
+.put {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  border-top: 11px solid transparent;
+  border-left: 3px solid white;
+  top: 10px;
+  left: 1px;
+  transition: .2s;
+}
+
+.p1.hide {
+  width: 20px;
+  height: 20px;
+  border-top: none;
+  border-left: none;
+  top: 13px;
+  left: 12px;
+}
+
+.p2.hilang {
+  display: none;
+}
+
+.mata1 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #33333C;
+  transform: translate(-130deg);
+  position: relative;
+  top: 65px;
+  left: 149px;
+}
+
+.mata2 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #33333C;
+  transform: translate(-130deg);
+  position: relative;
+  top: 20px;
+  left: 34px;
+}
+
+.mata2.m2 {
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 8px solid #33333C;
+  background-color: transparent;
+  top: 35px;
+}
+
+
+.mulut {
+  width: 75px;
+  height: 50px;
+  border-radius: 40%;
+  border-top: 1px solid transparent;
+  border-bottom: 40px solid #33333C;
+  transform: translate(-130deg);
+  position: relative;
+  top: 18px;
+  left: 76.8px;
+}
+
+.mulut.m {
+  border-radius: 50%;
+}
+
+.mulut .gigi {
+  width: 70px;
+  height: 15px;
+  border: 3px solid black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  /* background: linear-gradient(to top, hsl(0, 90.6%, 70.8%), hsl(0, 90.6%, 70.8%), hsl(215, 27.9%, 16.9%)); */
+  background: white;
+  position: absolute;
+  top: 50px;
+  left: 0.3px;
+  transition: .2s;
+}
+
+.mulut .gigi.g {
+  width: 30px;
+  height: 35px;
+  border: none;
+  background: linear-gradient(to top, hsl(0, 90.6%, 70.8%), hsl(0, 90.6%, 70.8%), hsl(215, 27.9%, 16.9%));
+  top: 70px;
+  left: 22px;
+}
+
